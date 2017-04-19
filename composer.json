@@ -1,0 +1,23 @@
+{
+	"name": "dashifen/modcount",
+	"description": "an object that produces a series of numbers over and over again",
+	"minimum-stability": "stable",
+	"type": "library",
+	"authors": [
+		{
+			"name": "David Dashifen Kees",
+			"email": "dashifen@dashifen.com",
+			"homepage": "https://dashifen.com",
+			"role": "developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Dashifen\\Modcount\\": "src/"
+		}
+	},
+	"require": {
+		"php": "^7.1"
+	},
+	"license": "MIT"
+}
